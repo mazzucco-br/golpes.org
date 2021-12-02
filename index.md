@@ -43,7 +43,7 @@
     <li>Desconfie de contas com fotos de conhecidos, mas com números diferentes;</li>
   </ul> 
   	<h4>O que fazer?</h4>
-    <p>Registrar um <b>Boletim de Ocorrência</b> e <b>denunciar ao WhatsApp</b> através do e-mail: <ahref="mailto:suporte@whatsapp.com?subject=Denúncia">suporte@whatsapp.com</a>. Também é possível denunciar clicando no número do golpe, clicar no campo "Dados do contato" e clicar em "denunciar". Avisar familiares e conhecidos, no caso de detectar que estão utilizando seu nome para aplicar o golpe.</p>
+    <p>Registrar um <b>Boletim de Ocorrência</b> e <b>denunciar ao WhatsApp</b> através do e-mail: <a href="mailto:suporte@whatsapp.com?subject=Denúncia">suporte@whatsapp.com</a>. Também é possível denunciar clicando no número do golpe, clicar no campo "Dados do contato" e clicar em "denunciar". Avisar familiares e conhecidos, no caso de detectar que estão utilizando seu nome para aplicar o golpe.</p>
 	<p>* Este golpe não se trata de clonagem de WhatsApp; a vítima não deixa de ter acesso ao seu aplicativo; os criminosos utilizam um número diferente, com a foto da vítima, para se passar por ela.</p>
 </div>
 <button class="accordion">Golpe do voucher/cupom desconto em restaurante</button>
