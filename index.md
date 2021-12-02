@@ -23,7 +23,6 @@
   overflow: hidden;
 }
 </style>
-</head>
 <body>
 
 <h2>Golpes</h2>
