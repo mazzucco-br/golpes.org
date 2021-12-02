@@ -5,15 +5,18 @@
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  border: none;
   text-align: left;
   outline: none;
   font-size: 15px;
   transition: 0.4s;
+  font-weight: bold;
+  border: 1px;
+  border-style: solid;
+  border-color: white;
 }
 
 .active, .accordion:hover {
-  background-color: #ccc; 
+  background-color: rgb(255, 217, 0); 
 }
 
 .panel {
@@ -21,6 +24,9 @@
   display: none;
   background-color: white;
   overflow: hidden;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(255, 217, 0);
 }
 </style>
 <body>
@@ -29,7 +35,16 @@
 
 <button class="accordion">Golpe do perfil falso no whatsapp</button>
 <div class="panel">
-  <p>TO DO</p>
+  <p>Os criminosos vinculam uma imagem de perfil da vítima, geralmente retirada do seu próprio perfil de WhatsApp ou redes sociais. Com uma conta falsa, eles se passam pela vítima e solicitam dinheiro para amigos, familiares e conhecidos.</p>
+  <h4>Como previnir?</h4>
+  <ul>
+    <li>Ajuste a visualização da imagem da conta do WhatsApp apenas para contatos autorizados;</li>
+    <li>Fique atento a mensagens de conhecidos ou familiares solicitando depósito e/ou transferências bancárias (ainda mais se for em nome de terceiros);</li>
+    <li>Desconfie de contas com fotos de conhecidos, mas com números diferentes;</li>
+  </ul> 
+  	<h4>O que fazer?</h4>
+    <p>Registrar um <b>Boletim de Ocorrência</b> e <b>denunciar ao WhatsApp</b> através do e-mail: <ahref="mailto:suporte@whatsapp.com?subject=Denúncia">suporte@whatsapp.com</a>. Também é possível denunciar clicando no número do golpe, clicar no campo "Dados do contato" e clicar em "denunciar". Avisar familiares e conhecidos, no caso de detectar que estão utilizando seu nome para aplicar o golpe.</p>
+	<p>* Este golpe não se trata de clonagem de WhatsApp; a vítima não deixa de ter acesso ao seu aplicativo; os criminosos utilizam um número diferente, com a foto da vítima, para se passar por ela.</p>
 </div>
 <button class="accordion">Golpe do voucher/cupom desconto em restaurante</button>
 <div class="panel">
