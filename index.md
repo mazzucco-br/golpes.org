@@ -39,7 +39,7 @@ img {
 <h2>Golpes</h2>
 
 <button class="accordion">Golpe do perfil falso no whatsapp</button>
-<div class="panel">
+<div class="panel" style="display:block">
   <img src="images/golpe-whatsapp.png" />
   <p>Os criminosos vinculam uma imagem de perfil da vítima, geralmente retirada do seu próprio perfil de WhatsApp ou redes sociais. Com uma conta falsa, eles se passam pela vítima e solicitam dinheiro para amigos, familiares e conhecidos.</p>
   <h4>Como previnir?</h4>
