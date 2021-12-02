@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .accordion {
   background-color: #eee;
@@ -117,7 +113,3 @@
       });
     }
 </script>
-
-</body>
-</html>
-
