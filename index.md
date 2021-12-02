@@ -34,9 +34,9 @@
 .post-thumb {
     float: left
 }
-.post-thumb img {
-    display: block
-    padding-right: 5px;
+.post-thumb img {    
+    width: 100%;
+  	height: auto;
 }
 .post-content {	
     overflow:hidden;
