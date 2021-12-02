@@ -28,19 +28,9 @@
   border-style: solid;
   border-color: rgb(255, 217, 0);
 }
-.post-container {
-    overflow: auto
-}
-.post-thumb {
-    float: left
-}
-.post-thumb img {    
-    width: 100%;
-  	height: auto;
-}
-.post-content {	
-    overflow:hidden;
-    padding-left: 10px;
+img {
+  width: 100%;
+  height: auto;
 }
 
 </style>
@@ -50,12 +40,8 @@
 
 <button class="accordion">Golpe do perfil falso no whatsapp</button>
 <div class="panel">
-  <div class="post-container">                
-     <div class="post-thumb"><img src="images/golpe-whatsapp.png" /></div>
-     <div class="post-content">
-     	<p>Os criminosos vinculam uma imagem de perfil da vítima, geralmente retirada do seu próprio perfil de WhatsApp ou redes sociais. Com uma conta falsa, eles se passam pela vítima e solicitam dinheiro para amigos, familiares e conhecidos.</p>
-     </div>
-  </div>
+  <img src="images/picture.jpg" />
+  <p>Os criminosos vinculam uma imagem de perfil da vítima, geralmente retirada do seu próprio perfil de WhatsApp ou redes sociais. Com uma conta falsa, eles se passam pela vítima e solicitam dinheiro para amigos, familiares e conhecidos.</p>
   <h4>Como previnir?</h4>
   <ul>
     <li>Ajuste a visualização da imagem da conta do WhatsApp apenas para contatos autorizados;</li>
