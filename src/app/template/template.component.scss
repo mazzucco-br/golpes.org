@@ -64,8 +64,9 @@
   }
 
   h2 {
-    margin:  0 0 10px;
+    margin: 0 0 10px;
   }
+
   h3 {
     margin: 0;
   }
@@ -82,4 +83,25 @@
 
 .mb-step {
   margin-bottom: 20px !important;
+}
+
+.container-whats-link {
+  padding: 25px;
+  font-family: D-DIN, serif;
+  font-size: 20px;
+
+  .whats-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 25px 0;
+    background-color: forestgreen;
+    border-radius: 15px;
+
+    a {
+      color: white;
+      text-decoration: none
+    }
+  }
 }
