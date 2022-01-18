@@ -1,5 +1,5 @@
 <div class="template-container">
-  <!--  <a href="https://web.whatsapp.com/send?text=Saiba como se proteger de golpes!! acesse https://golpes.org" target="_blank" data-text="Saiba como se proteger de golpes!! acesse https://golpes.org">Share1</a>-->
+  <!--  <a href="https://web.whatsapp.com/send?text=Saiba como se proteger de golpes!! acesse https://golpes-org" target="_blank" data-text="Saiba como se proteger de golpes!! acesse https://golpes-org">Share1</a>-->
 
   <ng-container *ngIf="onHome; else ActiveGolpe">
 
@@ -14,15 +14,20 @@
       </div>
       <h2>{{selectedGolpe.title}}</h2>
 
+      <h3 class="step mb-step">
+        <h1>Como Funciona</h1>
+        {{selectedGolpe.description}}
+      </h3>
+
       <div fxLayout="column" fxLayoutGap="20px">
-      <ng-container *ngFor="let step of selectedGolpe.steps; let position = index">
-        <div class="step" fxLayout="column">
-          <h1>{{position + 1}}. {{step.title}}</h1>
-          <div *ngFor="let description of step.description">
-          <h3>{{description}}</h3>
+        <ng-container *ngFor="let step of selectedGolpe.steps; let position = index">
+          <div class="step" fxLayout="column">
+            <h1>{{step.title}}</h1>
+            <div *ngFor="let description of step.description">
+              <h3>{{description}}</h3>
+            </div>
           </div>
-        </div>
-      </ng-container>
+        </ng-container>
       </div>
     </div>
 
@@ -36,7 +41,8 @@
       <form>
         <mat-form-field appearance="outline">
           <mat-label>Pesquisar Golpe</mat-label>
-          <input autocomplete="off" [(ngModel)]="searchText" name="text" type="tel" matInput placeholder="Ex: WhatsApp">
+          <input autocomplete="off" [(ngModel)]="searchText" name="text" type="text" matInput
+                 placeholder="Ex: WhatsApp">
           <mat-icon matSuffix>search</mat-icon>
         </mat-form-field>
       </form>

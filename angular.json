@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/golpes.org",
+            "outputPath": "dist/golpes-org",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "golpes.org:build:production"
+              "browserTarget": "golpes-org:build:production"
             },
             "development": {
-              "browserTarget": "golpes.org:build:development"
+              "browserTarget": "golpes-org:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "golpes.org:build"
+            "browserTarget": "golpes-org:build"
           }
         },
         "test": {
@@ -107,5 +107,5 @@
       }
     }
   },
-  "defaultProject": "golpes.org"
+  "defaultProject": "golpes-org"
 }

@@ -12,10 +12,11 @@ export class TemplateComponent implements OnInit {
     {
       id: 'WhatsApp',
       title: 'WhatsApp',
+      description: 'Os criminosos vinculam uma imagem de perfil da vítima, geralmente retirada do seu próprio perfil de WhatsApp ou redes sociais. Com uma conta falsa, eles se passam pela vítima e solicitam dinheiro para amigos, familiares e conhecidos.',
       img: 'https://i.ibb.co/cNnHyRc/Ellipse-50.png',
       steps: [
         {
-          title: 'COMO PREVENIR?',
+          title: 'Como Previnir?',
           description: [
             'Ajuste a visualização da imagem da conta do WhatsApp apenas para contatos autorizados;',
             'Fique atento a mensagens de conhecidos ou familiares solicitando depósito e/ou transferências bancárias (ainda mais se for em nome de terceiros);',
@@ -23,7 +24,7 @@ export class TemplateComponent implements OnInit {
           ]
         },
         {
-          title: 'O QUE FAZER?',
+          title: 'O que Fazer?',
           description: ['Registrar um Boletim de Ocorrência e denunciar ao WhatsApp através do e-mail: suporte@whatsapp.com. Também é possível denunciar clicando no número do golpe, clicar no campo "Dados do contato" e clicar em "denunciar". Avisar familiares e conhecidos, no caso de detectar que estão utilizando seu nome para aplicar o golpe.']
         },
       ]
@@ -50,17 +51,17 @@ export class TemplateComponent implements OnInit {
         }
       ]
     },
-    {
-      id: 'WhatsApp',
-      title: 'WhatsApp',
-      img: 'https://i.ibb.co/cNnHyRc/Ellipse-50.png',
-      steps: [
-        {
-          title: '',
-          description: ['']
-        }
-      ]
-    },
+    // {
+    //   id: 'WhatsApp',
+    //   title: 'WhatsApp',
+    //   img: 'https://i.ibb.co/cNnHyRc/Ellipse-50.png',
+    //   steps: [
+    //     {
+    //       title: '',
+    //       description: ['']
+    //     }
+    //   ]
+    // },
   ]
 
   searchText = '';
