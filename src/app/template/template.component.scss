@@ -1,0 +1,23 @@
+.template-container {
+  width: 100vw;
+  max-width: 450px;
+  min-height: 100vh;
+  margin: 0;
+  background-size: cover;
+}
+
+.search-box {
+  padding: 0 25px;
+  font-size: 25px;
+  font-family: D-DIN, "Arial Black", serif;
+  font-weight: bold;
+  text-align: center;
+  gap: 25px;
+
+  .search {
+    .mat-form-field {
+      font-size: 16px;
+    }
+  }
+
+}
