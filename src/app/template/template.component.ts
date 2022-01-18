@@ -50,17 +50,17 @@ export class TemplateComponent implements OnInit {
         }
       ]
     },
-    {
-      id: '',
-      title: '',
-      img: 'https://i.ibb.co/cNnHyRc/Ellipse-50.png',
-      steps: [
-        {
-          title: '',
-          description: ['']
-        }
-      ]
-    },
+    // {
+    //   id: '',
+    //   title: '',
+    //   img: 'https://i.ibb.co/cNnHyRc/Ellipse-50.png',
+    //   steps: [
+    //     {
+    //       title: '',
+    //       description: ['']
+    //     }
+    //   ]
+    // },
   ]
 
   searchText = '';
