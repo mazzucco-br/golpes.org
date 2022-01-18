@@ -29,6 +29,11 @@
           </div>
         </ng-container>
       </div>
+
+        <div class="whats-link">
+          <a style="text-decoration: none;" [href]="'https://api.whatsapp.com/send?text=Saiba como se proteger de golpes!! acesse https://golpes.org?g=' + selectedGolpe.id" target="_blank" data-text="Saiba como se proteger de golpes!! acesse https://golpes-org">Compartilhe Agora Via Whatsapp</a>
+        </div>
+
     </div>
 
   </ng-template>
@@ -53,7 +58,7 @@
       <div *ngIf="!filteredList.length" class="not-found">Não encontramos nenhum golpe com esse nome</div>
 
       <ng-container *ngFor="let item of filteredList">
-        <div routerLink="/" [queryParams]="{golpe: item.id}" (click)="scrollUp()" fxLayout="column"
+        <div routerLink="/" [queryParams]="{g: item.id}" (click)="scrollUp()" fxLayout="column"
              fxLayoutAlign="center center">
           <img [src]="item.img" alt="">
           <span>{{item.title}}</span>
@@ -64,11 +69,7 @@
 
   </div>
 
-  <div class="container-whats-link">
-  <div class="whats-link">
-      <a style="text-decoration: none;" href="https://web.whatsapp.com/send?text=Saiba como se proteger de golpes!! acesse https://golpes-org" target="_blank" data-text="Saiba como se proteger de golpes!! acesse https://golpes-org">Compartilhe Agora Via Whatsapp!</a>
-  </div>
-  </div>
+
 
   <ng-container *ngIf="!onHome">
 

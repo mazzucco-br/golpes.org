@@ -71,10 +71,10 @@ export class TemplateComponent implements OnInit {
   constructor(private route: ActivatedRoute) {
 
     this.route.queryParams.subscribe(params => {
-      if (params['golpe']) {
+      if (params['g']) {
 
         this.golpes.map(golpe => {
-          if (golpe.id === params['golpe']) {
+          if (golpe.id === params['g']) {
             this.selectedGolpe = golpe;
           }
         })
