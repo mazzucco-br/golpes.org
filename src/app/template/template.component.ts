@@ -32,36 +32,46 @@ export class TemplateComponent implements OnInit {
     {
       id: 'GolpeDoAmor',
       title: 'Golpe do Amor',
+      description: `Os golpistas buscam dados de suas vítimas em aplicativos de relacionamento e namoro.
+        O primeiro contato é feito pelo site de relacionamento e depois pelo WhatsApp.
+        - Após iniciar conversas amorosas com fotos de uma pessoa fictícia, surgem as falsas declarações de amor e conversas sobre o desejo de se mudar para o Brasil e assim poder viver perto da vítima;
+        - Na sequência, pedem o endereço residencial da vítima e depois afirmam que estão enviando uma caixa (muitas vezes mandam fotos) com joias, numerários e outros itens, que supostamente foram retidos pela Receita Federal. Para retirá-la, a vítima precisa fazer um depósito de um valor, que geralmente varia de R$ 2.500 a R$ 4.000.
+        - Em alguns casos, o golpista afirma que tem um intermediário no envio da tal caixa e pede que todo o depósito ou parte dele seja feito no nome dessa pessoa. Fazem ameaças à vítima e seus familiares caso não efetue o depósito.`,
       img: 'https://i.ibb.co/YRrrYCx/Ellipse-49.png',
       steps: [
         {
-          title: '',
-          description: ['']
-        }
+          title: 'Como Previnir?',
+          description: [
+            'Nunca compartilhe fotos e vídeos íntimas através de mensagens;'
+          ]
+        },
+        {
+          title: 'O que Fazer?',
+          description: ['Se for vítima de extorsão, procure a Delegacia de Polícia mais próxima;', 'Não deposite o valor solicitado.']
+        },
       ]
     },
     {
       id: 'FalsoEmprestimo',
       title: 'Falso Empréstimo',
+      description: `Os criminosos fazem anúncios em redes sociais se passando por instituições financeiras de crédito rápido com ofertas tentadoras.
+      - Após contato da vítima, os criminosos solicitam o pagamento de uma taxa para a liberação do empréstimo;
+      - São solicitados diversos pagamentos, até que vítima perceba que se trata de um golpe e pare de pagar.`,
       img: 'https://i.ibb.co/9tC3ZD1/Ellipse-48.png',
       steps: [
         {
-          title: '',
-          description: ['']
-        }
+          title: 'Como Previnir?',
+          description: [
+            'Instituições financeiras nunca solicitam pagamentos prévios para a liberação de valores;',
+            'Sempre desconfie de ofertas imperdíveis, na dúvida, procure os canais de comunicação da instituição.'
+          ]
+        },
+        {
+          title: 'O que Fazer?',
+          description: ['Registrar um Boletim de Ocorrência']
+        },
       ]
-    },
-    // {
-    //   id: 'WhatsApp',
-    //   title: 'WhatsApp',
-    //   img: 'https://i.ibb.co/cNnHyRc/Ellipse-50.png',
-    //   steps: [
-    //     {
-    //       title: '',
-    //       description: ['']
-    //     }
-    //   ]
-    // },
+    }
   ]
 
   searchText = '';
