@@ -16,7 +16,7 @@
 
       <h3 class="step mb-step">
         <h1>Como Funciona</h1>
-        {{selectedGolpe.description}}
+        <p [innerText]="selectedGolpe.description"></p>
       </h3>
 
       <div fxLayout="column" fxLayoutGap="20px">
@@ -24,7 +24,7 @@
           <div class="step" fxLayout="column">
             <h1>{{step.title}}</h1>
             <div *ngFor="let description of step.description">
-              <h3>{{description}}</h3>
+              <h3 innerHTML={{description}}></h3>
             </div>
           </div>
         </ng-container>
