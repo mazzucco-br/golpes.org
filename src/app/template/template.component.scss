@@ -9,7 +9,7 @@
 .search-box {
   padding: 0 25px;
   font-size: 25px;
-  font-family: D-DIN, "Arial Black", serif;
+  font-family: opendyslexic !important;
   font-weight: bold;
   text-align: center;
   gap: 25px;
@@ -54,7 +54,7 @@
 }
 
 .selected-golpe {
-  font-family: D-DIN, serif;
+  font-family: opendyslexic !important;
   padding: 15px;
 
   h1 {
@@ -89,7 +89,7 @@
 .whats-link {
   margin-top: 15px;
   padding: 25px;
-  font-family: D-DIN, serif;
+  font-family: opendyslexic !important;
   font-size: 20px;
   display: flex;
   justify-content: center;
