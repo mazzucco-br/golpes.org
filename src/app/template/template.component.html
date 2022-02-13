@@ -30,10 +30,17 @@
         </ng-container>
       </div>
 
-        <div class="whats-link">
-          <a style="text-decoration: none;" [href]="'https://api.whatsapp.com/send?text=Saiba como se proteger de golpes!! acesse https://golpes.org?g=' + selectedGolpe.id" target="_blank" data-text="Saiba como se proteger de golpes!! acesse https://golpes-org">Compartilhe Agora Via Whatsapp</a>
-        </div>
-
+      <div class="whats-link">
+        <a style="text-decoration: none;"
+           [href]="'https://api.whatsapp.com/send?text=Saiba como se proteger de golpes!! acesse https://golpes.org?g=' + selectedGolpe.id"
+           target="_blank" data-text="Saiba como se proteger de golpes!! acesse https://golpes-org">Compartilhe Agora Via Whatsapp</a>
+      </div>
+      <div class="reportar-golpe">
+        <a style="text-decoration: none;"
+           [href]="'https://airtable.com/shrRgqT7toNlyleJ5'"
+           target="_blank" data-text="Saiba como se proteger de golpes!! acesse https://golpes-org">Reportar Golpe</a>
+      </div>
+      <p>*Conteúdo produzido com a colaboração de informações das Polícias Civis do Distrito Federal (PC/DF) e do Rio Grande do Sul (PC/RS).</p>
     </div>
 
   </ng-template>
@@ -52,11 +59,8 @@
         </mat-form-field>
       </form>
     </div>
-
     <div class="list" fxLayout="row" fxLayoutAlign="space-around start">
-
       <div *ngIf="!filteredList.length" class="not-found">Não encontramos nenhum golpe com esse nome</div>
-
       <ng-container *ngFor="let item of filteredList">
         <div routerLink="/" [queryParams]="{g: item.id}" (click)="scrollUp()" fxLayout="column"
              fxLayoutAlign="center center">
@@ -64,19 +68,15 @@
           <span>{{item.title}}</span>
         </div>
       </ng-container>
-
     </div>
-
   </div>
-
-
-
+  <div class="reportar-golpe" *ngIf="onHome">
+    <a style="text-decoration: none;"
+       [href]="'https://airtable.com/shrRgqT7toNlyleJ5'"
+       target="_blank" data-text="Saiba como se proteger de golpes!! acesse https://golpes-org">Reportar Golpe</a>
+  </div>
   <ng-container *ngIf="!onHome">
-
     <img routerLink="/" (click)="scrollUp()" src="assets/images/app-background.png" style="width: 100%; height: 100%"
          alt="">
-    <p>*Conteúdo produzido com a colaboração de informações das Polícias Civis do Distrito Federal (PC/DF) e do Rio Grande do Sul (PC/RS).</p>
   </ng-container>
-
-
 </div>

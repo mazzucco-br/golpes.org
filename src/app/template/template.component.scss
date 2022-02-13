@@ -25,7 +25,6 @@
 
     }
   }
-
 }
 
 .list {
@@ -78,13 +77,11 @@
     gap: 10px;
     box-shadow: #444444 1px 7px;
   }
-
 }
 
 .mb-step {
   margin-bottom: 20px !important;
 }
-
 
 .whats-link {
   margin-top: 15px;
@@ -97,6 +94,25 @@
   width: 100%;
   padding: 25px 0;
   background-color: forestgreen;
+  border-radius: 15px;
+
+  a {
+    color: white;
+    text-decoration: none
+  }
+}
+
+.reportar-golpe {
+  margin-top: 15px;
+  padding: 25px;
+  font-family: opendyslexic !important;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 25px 0;
+  background-color: black;
   border-radius: 15px;
 
   a {

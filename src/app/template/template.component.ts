@@ -81,7 +81,7 @@ export class TemplateComponent implements OnInit {
       title: 'Golpe OLX',
       description: `A vítima faz um anúncio em plataformas de compra/venda online e deixa o número de contato acessível ao público; Os criminosos, de posse do número, se passam pelo suporte da plataforma e pedem para que a vítima passe um código de validação recebido por mensagem;
       O código recebido é de autenticação do WhatsApp da vítima, que terá o 'aplicativo clonado, caso passe o código recebido ao criminoso.`,
-      img: 'x.png',
+      img: 'assets/images/logo.png',
       steps: [
         {
           title: 'Como Previnir?',
@@ -105,7 +105,7 @@ export class TemplateComponent implements OnInit {
       description: `Através de mensagens os criminosos dizem que a vítima se enquadrou para o recebimento de alguma promoção, sorteio, auxílio emergencial, ou encaminham algum alerta dizendo que ocorreu uma operação indevida em sua conta.
       – O criminoso então encaminha um link malicioso dizendo que deve ser acessado para que a vítima receba o prêmio o benefício ou para evitar que a conta seja bloqueada;
       – Ao acionar o link, a vítima é redirecionada para sites falsos de cadastros, ou baixa automaticamente aplicativos maliciosos no telefone, todos com objetivo de obter informações pessoais da vítima;`,
-      img: 'x.png',
+      img: 'assets/images/logo.png',
       steps: [
         {
           title: 'Como Previnir?',
@@ -128,7 +128,7 @@ export class TemplateComponent implements OnInit {
       - A vítima interessada em comprar também é orientada a se manter em silêncio e por isso ganhará um desconto;
       - Com o enredo pronto, o criminoso fornece contas de terceiro para receber o pagamento;
       – Após recebido valor, o criminoso combina de assinar o recibo em cartório com ambas as vítimas, as quais descobrem que caíram em um golpe.`,
-      img: 'x.png',
+      img: 'assets/images/logo.png',
       steps: [
         {
           title: 'Como Previnir?',
@@ -153,7 +153,7 @@ export class TemplateComponent implements OnInit {
       – Os criminosos solicitam o depósito de valores em algumas contas ou pedem que coloquem créditos em alguns números telefônicos;
       – Em algumas modalidades, os criminosos determinam que a vítima saia de casa, vá até um local reservado, que não alerte ninguém e que não entre em contato com seus familiares. Solicitam então o telefone de outra pessoa da família, para que este consiga o dinheiro solicitado;
       – De posse do telefone de outro familiar, o criminoso entra em contato, dizendo que sequestrou a vítima, esta, incomunicável e fora de casa, não consegue entrar em contato, deixando a impressão que realmente foi sequestrada;`,
-      img: 'x.png',
+      img: 'assets/images/logo.png',
       steps: [
         {
           title: 'Como Previnir?',
@@ -180,7 +180,7 @@ export class TemplateComponent implements OnInit {
       - Na sequência, o golpista informa que um funcionário da instituição irá até à residência da vítima para efetuar a troca do cartão;
 
       - De posse do cartão, os criminosos efetuam diversas transações bancárias.`,
-      img: 'x.png',
+      img: 'assets/images/logo.png',
       steps: [
         {
           title: 'Como Previnir?',
@@ -207,7 +207,7 @@ export class TemplateComponent implements OnInit {
       - A negociação ocorre via aplicativo de mensagens;
 
       - O depósito é realizado em contas bancárias de terceiros.`,
-      img: 'x.png',
+      img: 'assets/images/logo.png',
       steps: [
         {
           title: 'Como Previnir?',
@@ -237,7 +237,7 @@ export class TemplateComponent implements OnInit {
       Para que o caso não seja levado à polícia, ou para que as fotos íntimas e as conversas privadas não sejam compartilhadas com a esposa, parentes ou amigos da vítima, o golpista exige que seja paga certa quantia em dinheiro por meio de depósito bancário.
       *ATENÇÃO:Algumas vezes os golpistas também se fazem passar por supostos advogados, policiais civis ou delegados, alegando que as fotos já fazem parte de uma investigação policial e solicitam depósitos em dinheiro para
       que o “inquérito” seja arquivado. A vítima, temendo ser presa ou à exposição social cede à extorsão e acaba fazendo o depósito dos valores solicitados pelos golpistas.`,
-      img: 'x.png',
+      img: 'assets/images/logo.png',
       steps: [
         {
           title: 'Como Previnir?',
@@ -267,7 +267,7 @@ export class TemplateComponent implements OnInit {
       Nesse caso a vítima perde o acesso ao aplicativo de mensagens.
       A partir disso o criminoso se passa pela vítima e, alegando algum problema na conta ou com cartão de crédito bloqueado solicita dinheiro emprestado se comprometendo a pagar no dia seguinte.
       O parente ou amigo da vítima, acreditando estar falando com a pessoa de sua confiança, acaba transferindo o dinheiro para a conta bancária informada, e assim se torna também vítima do golpe.`,
-      img: 'x.png',
+      img: 'assets/images/logo.png',
       steps: [
         {
           title: 'Como Previnir?',
@@ -301,7 +301,7 @@ export class TemplateComponent implements OnInit {
       A partir daí se inicia toda uma encenação, onde o segundo golpista simula falar com alguém da Caixa Econômica Federal para confirmar a legitimidade do prêmio.
       Então, ele sugere que a vítima fique com o bilhete premiado, mas, em contrapartida, repasse algum dinheiro para o suposto ganhador.
       Geralmente eles acompanham a vítima até uma agência bancária para fazer o saque do dinheiro, ou a transferência como garantia de que o humilde suposto ganhador não seja enganado, e então entregam o bilhete premiado.`,
-      img: 'x.png',
+      img: 'assets/images/logo.png',
       steps: [
         {
           title: 'Como Previnir?',
@@ -328,7 +328,7 @@ export class TemplateComponent implements OnInit {
       Com isso, ele forja uma história de que estaria viajando ou chegando próximo à cidade onde a vítima reside, e relata que sofreu algum acidente ou que o carro de quebrou.
       Então o criminoso solicita que a vítima faça uma transferência em dinheiro para determinada conta bancária do mecânico, do guincho ou da borracharia onde o veículo está sendo consertado.
       Ele promete devolver o dinheiro no dia seguinte quando chegar à cidade da vítima.`,
-      img: 'x.png',
+      img: 'assets/images/logo.png',
       steps: [
         {
           title: 'Como Previnir?',
@@ -353,7 +353,7 @@ export class TemplateComponent implements OnInit {
       O golpista então encaminha uma fotografia do comprovante de depósito e a vítima confirma o recebimento em consulta à sua conta pelo aplicativo do banco.
       Como a verificação bancária do depósito demora algumas horas ou, às vezes, é feita apenas no próximo dia útil, o valor fica aparecendo como depositado até que se verifique que depósito não foi satisfeito.
       Assim, a vítima efetua a entrega do bem/objeto (normalmente o golpista manda um motorista de aplicativo para apanhar o objeto no mesmo dia do depósito).`,
-      img: 'x.png',
+      img: 'assets/images/logo.png',
       steps: [
         {
           title: 'Como Previnir?',
@@ -390,7 +390,7 @@ export class TemplateComponent implements OnInit {
       description: `O golpista liga para a vítima como se fosse o banco no qual a vítima possui conta, fala que precisa liberar algumas chaves de acesso e passa um endereço de site supostamente do banco, para ela acessar.
       Este site é falso e redireciona a vítima para uma página semelhante a página oficial, mas que pertence ao golpista, o qual vai roubar todas as credenciais da vítima, como número da conta e senhas.
       Após a vítima digitar os seus dados na página falsa e de posse dessas informações, o golpista transfere todo o dinheiro da conta da vítima para sua conta.`,
-      img: 'x.png',
+      img: 'assets/images/logo.png',
       steps: [
         {
           title: 'Como Previnir?',
