@@ -16,7 +16,7 @@ export class TemplateComponent implements OnInit {
       img: 'https://i.ibb.co/cNnHyRc/Ellipse-50.png',
       steps: [
         {
-          title: 'Como Previnir?',
+          title: 'Como Prevenir?',
           description: [
             'Ajuste a visualização da imagem da conta do WhatsApp apenas para contatos autorizados;',
             'Fique atento a mensagens de conhecidos ou familiares solicitando depósito e/ou transferências bancárias (ainda mais se for em nome de terceiros);',
@@ -44,7 +44,7 @@ export class TemplateComponent implements OnInit {
       img: 'https://i.ibb.co/YRrrYCx/Ellipse-49.png',
       steps: [
         {
-          title: 'Como Previnir?',
+          title: 'Como Prevenir?',
           description: [
             'Nunca compartilhe fotos e vídeos íntimas através de mensagens;'
           ]
@@ -64,7 +64,7 @@ export class TemplateComponent implements OnInit {
       img: 'https://i.ibb.co/9tC3ZD1/Ellipse-48.png',
       steps: [
         {
-          title: 'Como Previnir?',
+          title: 'Como Prevenir?',
           description: [
             'Instituições financeiras nunca solicitam pagamentos prévios para a liberação de valores;',
             'Sempre desconfie de ofertas imperdíveis, na dúvida, procure os canais de comunicação da instituição.'
@@ -84,7 +84,7 @@ export class TemplateComponent implements OnInit {
       img: 'assets/images/logo.png',
       steps: [
         {
-          title: 'Como Previnir?',
+          title: 'Como Prevenir?',
           description: [
             'Nunca informe códigos recebidos por mensagem para ninguém e habilite a autenticação de dois fatores em sua conta;',
             'Na dúvida, entre em contato através dos canais oficiais da plataforma.'
@@ -108,7 +108,7 @@ export class TemplateComponent implements OnInit {
       img: 'assets/images/logo.png',
       steps: [
         {
-          title: 'Como Previnir?',
+          title: 'Como Prevenir?',
           description: [
             'Sempre desconfie de links encaminhados via WhatsApp ou SMS, na dúvida, entre em contato direto com os canais oficiais de comunicação;'
           ]
@@ -131,7 +131,7 @@ export class TemplateComponent implements OnInit {
       img: 'assets/images/logo.png',
       steps: [
         {
-          title: 'Como Previnir?',
+          title: 'Como Prevenir?',
           description: [
             'Mantenha sempre um diálogo aberto com o vendedor/comprador;',
             'Faça questão de ver o bem pessoalmente;',
@@ -156,7 +156,7 @@ export class TemplateComponent implements OnInit {
       img: 'assets/images/logo.png',
       steps: [
         {
-          title: 'Como Previnir?',
+          title: 'Como Prevenir?',
           description: [
             'No caso de receber alguma ligação deste tipo, desligue e tente entrar em contato com o familiar que supostamente foi sequestrado;',
             'Na dúvida, solicite ajuda a alguém próximo para entrar em contato com o familiar; o nervosismo pode induzir a vítima a erro, alguém que não esteja sofrendo o golpe pode ajudar a localizá-lo e perceber que se trata de um golpe;',
@@ -240,7 +240,7 @@ export class TemplateComponent implements OnInit {
       img: 'assets/images/logo.png',
       steps: [
         {
-          title: 'Como Previnir?',
+          title: 'Como Prevenir?',
           description: [
             'Nunca compartilhe fotos íntimas pela internet. Depois de compartilhado, a foto ou o vídeo podem circular entre milhares de pessoas;',
             'Desconfie sempre de solicitações de amizade, através das redes sociais, de pessoas que você não conhece;',
@@ -270,7 +270,7 @@ export class TemplateComponent implements OnInit {
       img: 'assets/images/logo.png',
       steps: [
         {
-          title: 'Como Previnir?',
+          title: 'Como Prevenir?',
           description: [
             'Habilite a “confirmação em duas etapas” no aplicativo WhatsApp. Para isso, dentro do seu aplicativo clique ' +
             'em “configurações/ajustes” e depois clique em “conta”, escolha a opção “confirmação em duas etapas” e ' +
@@ -304,7 +304,7 @@ export class TemplateComponent implements OnInit {
       img: 'assets/images/logo.png',
       steps: [
         {
-          title: 'Como Previnir?',
+          title: 'Como Prevenir?',
           description: [
             'Caso se depare com alguém pedindo ajuda em situação semelhante diga que não pode ajudar e procure uma Delegacia de Polícia mais próxima para informar o fato.',
             '*ATENÇÃO: Saiba que não se ganha dinheiro fácil, principalmente em abordagens de rua por desconhecidos. Sempre desconfie!'
@@ -331,7 +331,7 @@ export class TemplateComponent implements OnInit {
       img: 'assets/images/logo.png',
       steps: [
         {
-          title: 'Como Previnir?',
+          title: 'Como Prevenir?',
           description: [
             'Não faça transferências ou entregue dinheiro para terceiros;',
             'Desligue o telefone e faça contato com o familiar que você achava estar falando. Caso a pessoa esteja realmente em apuros, você ainda poderáajudá-la.'
@@ -356,7 +356,7 @@ export class TemplateComponent implements OnInit {
       img: 'assets/images/logo.png',
       steps: [
         {
-          title: 'Como Previnir?',
+          title: 'Como Prevenir?',
           description: [
             'Quando realizada uma negociação pela internet aguarde sempre a compensação do depósito bancário. ' +
             'Se possível, aguarde até o próximo dia útil para que haja a confirmação da entrada do dinheiro na conta. ' +
@@ -393,7 +393,7 @@ export class TemplateComponent implements OnInit {
       img: 'assets/images/logo.png',
       steps: [
         {
-          title: 'Como Previnir?',
+          title: 'Como Prevenir?',
           description: [
             'Nunca forneça dados pessoais ou realize atendimentos bancários de ligações recebidas no telefone, caso seja urgente, ligue para o número do banco ou vá pessoalmente na agência.'
           ]
@@ -416,7 +416,7 @@ export class TemplateComponent implements OnInit {
       img: 'assets/images/logo.png',
       steps: [
         {
-          title: 'Como Previnir?',
+          title: 'Como Prevenir?',
           description: [
             '-Evite consertar seu veículo em mecânicos desconhecidos, leve a um de sua confiança;',
             '-Desconfie quando afirmarem que seu carro está quebrado, pois muitas pessoas acabam se convencendo pelas palavras do golpista e nem chegam a se questionar se o entranho que acabou de abordá-la de fato é mecânico;',
