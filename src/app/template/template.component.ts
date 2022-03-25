@@ -409,9 +409,9 @@ export class TemplateComponent implements OnInit {
     {
       id: 'golpeDoMecanico',
       title: 'Golpe do Mecânico',
-      description: `-O golpe do mecânico se inicia com um suposto mecânico te abordando no trânsito e dizendo que o seu carro está com problemas e até que pode ter caído uma peça. Neste momento muitas confiam no golpista e deixam que o carro seja examinado., 
-                    -Na sequência, o golpista pode, por exemplo, desligar o fio da bateria e aí que o carro realmente apresenta defeito. Depois disso, o suposto mecânico realiza o conserto e acaba cobrando muito mais., 
-                    - Muitas vezes a única coisa que ele faz é religar o fio da bateria ou então o que ele mesmo desligou para acusar suposto defeito.,
+      description: `-O golpe do mecânico se inicia com um suposto mecânico te abordando no trânsito e dizendo que o seu carro está com problemas e até que pode ter caído uma peça. Neste momento muitas confiam no golpista e deixam que o carro seja examinado.
+                    -Na sequência, o golpista pode, por exemplo, desligar o fio da bateria e aí que o carro realmente apresenta defeito. Depois disso, o suposto mecânico realiza o conserto e acaba cobrando muito mais.
+                    - Muitas vezes a única coisa que ele faz é religar o fio da bateria ou então o que ele mesmo desligou para acusar suposto defeito.
                     -O golpista muitas das vezes pode ser um frentista, querendo resolver um problema que ele mesmo cria em seu veículo, fazendo barulhos na lataria do carro.`,
       img: 'assets/images/logo.png',
       steps: [
@@ -419,7 +419,7 @@ export class TemplateComponent implements OnInit {
           title: 'Como Prevenir?',
           description: [
             '-Evite consertar seu veículo em mecânicos desconhecidos, leve a um de sua confiança;',
-            '-Desconfie quando afirmarem que seu carro está quebrado, pois muitas pessoas acabam se convencendo pelas palavras do golpista e nem chegam a se questionar se o entranho que acabou de abordá-la de fato é mecânico;',
+            '-Desconfie quando afirmarem que seu carro está quebrado, pois muitas pessoas acabam se convencendo pelas palavras do golpista e nem chegam a se questionar se o estranho que acabou de abordá-la de fato é mecânico;',
             '-Antes de consertar seu veículo faça um orçamento, mesmo que precise consertar na rua, não aceite qualquer manutenção sem um orçamento;',
             '-Faça revisões periódicas e evite problemas com seu carro;',
             '-Sempre desconfie de abordagem no trânsito, não confie na primeira informação que você receber de um desconhecido até mesmo de um frentista, mesmo que pareça convincente;'
