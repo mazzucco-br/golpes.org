@@ -453,7 +453,7 @@ export class TemplateComponent implements OnInit {
           ]
         },
         {
-          title: 'O que Fazer?',
+          title: 'O Que Fazer?',
           description: [
             'A dica, segundo os especialistas, é que vítimas de golpes do gênero registrem na Polícia Civil um boletim assim que suspeitarem que estão caindo em um golpe.',
             'Caso um usuário depare com anúncios considerados suspeitos, a orientação da empresa é reportar a situação ao próprio Facebook, que analisará o conteúdo. A rede social frisa que a prática contribui para evitar que um número maior de pessoas seja impactado por possíveis ações criminosas.' ,
@@ -490,7 +490,7 @@ export class TemplateComponent implements OnInit {
           ]
         },
         {
-          title: 'O que Fazer?',
+          title: 'O Que Fazer?',
           description: [
             'Não deixe de divulgar as dicas dadas aqui a parentes e amigos — vale até indicar este site quando alguém compartilhar ofertas de trabalho suspeitas nas redes sociais ou no WhatsApp, por exemplo.',
             'Não hesite em procurar uma delegacia de polícia ou pedir orientações a um advogado.'
