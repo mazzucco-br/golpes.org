@@ -432,7 +432,45 @@ export class TemplateComponent implements OnInit {
           ]
         }
       ]
+    },
+    {
+      id: 'golpePropagandasFalsasFacebook',
+      title: 'Golpe Propagandas Falsas do Facebook',
+      description: `Golpistas postam anúncios de descontos usando o nome de varejistas, usando seus logotipos e marcas. Esses anúncios levam a sites semelhantes, porém falsos, que roubam dados financeiros dos consumidores, como informação de cartão de crédito e senhas bancárias. `,
+      img: 'assets/images/logo.png',
+      steps: [
+        {
+          title: 'Como Previnir?',
+          description: [
+            '-É preciso ter cuidado na hora de aderir a uma promoção para garantir que a oferta é real e anunciada por uma fanpage oficial da marca.',
+            '-Verifique se a página é oficial ou cópia.',
+            '-Observe o texto da URL do site para ver se a grafia está correta e se as palavras correspondem à do site oficial.',
+            '-Procure indicativos de segurança como o uso do SSL(HTTPS) e também se a página possui o selo Site Blindado.',
+            '- Faça uma busca pela marca e veja quantas curtidas a página possui.',
+            '-De forma geral, páginas oficiais costumam ter muitas curtidas, mais que uma página falsa.',  
+            '-Clique na página e verifique se ela possui uma validação, em azul, ao lado do nome da página.',
+            '-Preste atenção no valor do produto ofertado.  Os valores dos produtos, em promoção falsa, tendem a ser muito mais baratos que a média de outros sites do varejo. Por isso, desconfie desse tipo de oferta para não correr o risco de perder seu dinheiro.',
+            '- Para pequenos ou médios negócios nas plataformas, vale conferir os comentários nas publicações, assim como a data de criação da página. Caso seja recente demais, verifique o histórico das interações e o que outros clientes têm comentado a respeito dos produtos e serviços da empresa;'
+          ]
+        },
+        {
+          title: 'O que Fazer?',
+          description: [
+            'A dica, segundo os especialistas, é que vítimas de golpes do gênero registrem na Polícia Civil um boletim assim que suspeitarem que estão caindo em um golpe. ',
+            'Caso um usuário depare com anúncios considerados suspeitos, a orientação da empresa é reportar a situação ao próprio Facebook, que analisará o conteúdo. A rede social frisa que a prática contribui para evitar que um número maior de pessoas seja impactado por possíveis ações criminosas. ',
+            '-Para denunciar uma publicação:',
+            '- Clique no canto superior direito da postagem;',
+            '- Clique em "Denunciar publicação" ou "Denunciar foto";',
+            '- Selecione a opção que melhor descreva o problema e siga as instruções na tela.',
+            '-Para denunciar um perfil ou uma página:',
+            '- Vá para o perfil ou a página que deseja denunciar;',
+            '- No canto inferior direito da foto da capa, clique e selecione "Denunciar";',
+            '- Siga as instruções na tela.'
+          ]
+        }
+      ]
     }
+
   ]
 
   searchText = '';
