@@ -492,6 +492,44 @@ export class TemplateComponent implements OnInit {
           ]
         }
       ]
+    },
+    {
+      id: 'golpeInstagramPerfilHackeado',
+      title: 'Golpe do Instagram Perfil Hackeado',
+      description: `		Como os golpes digitais têm sido cada vez mais comuns, tornou-se comum receber alertas de amigos e familiares para perfis falsos em mensageiros (WhatsApp) pedindo dinheiro ou mesmo um aviso de sequestro de login em contas em mídias sociais como Facebook e Instagram.
+
+      O golpe do perfil hackeado utiliza justamente essa popularização de alertas para enganar seguidores de determinado perfil.
+    
+      A primeira ação dos golpistas é criar um perfil do zero e utilizar o nome de uma vítima que efetivamente tenha uma conta pública no Instagram. O novo perfil vai reproduzir as fotos e os posts feitos pela vítima, ou seja, duplicar conteúdos por meio de prints da tela e cópia dos textos nas legendas.
+    
+      O segundo passo é seguir os mesmos amigos e postar uma mensagem pública sobre o transtorno provocado pelo ataque hacker, argumentando que perdeu acesso a contas de mídias sociais e aos aplicativos de banco.
+    
+      O terceiro passo é enviar mensagem direta para alguns amigos que manifestaram pesar ou solidariedade com a situação. Na mensagem, o criminoso pede um valor baixo para ser transferido para uma carteira virtual. A promessa é devolver o valor assim que possível.
+    
+      O valor é direcionado para a carteira virtual do golpista e muitas vezes o dono do perfil duplicado não fica sabendo. Ou seja, efetivamente o ataque hacker não aconteceu, e sim o estelionato de pequenas quantias.`,
+      img: 'assets/images/logo.png',
+      steps: [
+        {
+          title: 'Como Prevenir?',
+          description: [
+            '-É importante se certificar sobre quem entra em contato com você por mensagens e só estabelecer diálogo com contatos de confiança. O Instagram reforça que, se precisar entrar em contato, usará a aba “E-mails do Instagram”, que fica nas configurações.',
+            '--Ao ativar a autenticação de dois fatores no Instagram, você receberá um alerta toda vez que alguém tentar entrar na sua conta por meio de um dispositivo ou navegador da Web. Estes alertas indicarão qual dispositivo tentou fazer o login e onde ele está localizado. ',
+            '-Você pode aprovar ou recusar de imediato a solicitação nos seus dispositivos conectados. Também é possível ver uma lista dos dispositivos que entraram recentemente na sua conta. Para isso, vá em “Configurações”, “Segurança” e “Atividade de login”. Se não reconhecer um login realizado recentemente, você poderá desconectar-se desse local ou dispositivo. ',
+            
+          ]
+        },
+        {
+          title: 'O que Fazer?',
+          description: [
+            `Se você foi vítima do golpe, a recomendação é entrar em contato com a sua instituição financeira e reportar a fraude, solicitando o estorno do valor enviado.
+
+            "A denúncia será consolidada e enviada para as equipes de segurança do banco ou fintech, as quais posteriormente vão agir para congelar ou cancelar a chave Pix", explica Assolini. Segundo ele, é comum a reutilização de chaves Pix em golpes. Logo, a denúncia é importante para evitar que outras pessoas caiam na fraude.
+            
+            Em seguida, é preciso avisar à pessoa que teve o perfil hackeado, para que ela possa alertar outros sobre a ocorrência do golpe e impedir que surjam novas vítimas.`,
+           
+          ]
+        }
+      ]
     }
     
     
