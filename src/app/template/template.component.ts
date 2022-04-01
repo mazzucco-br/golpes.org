@@ -575,6 +575,31 @@ export class TemplateComponent implements OnInit {
           ]
         }
       ]
+    },
+    {
+      id: 'golpeinstagramusandooperfildavítimaparaanunciarofertasfalsasaseguidores',
+      title: 'Golpe instagram usando o perfil da vítima para anunciar ofertas falsas a seguidores',
+      description: `	Depois de invadir o perfil de um alvo, os golpistas usam iscas muito parecidas para tentar ganhar dinheiro: eles fazem stories se passando pelo dono da conta avisando que um parente está se mudando do Brasil e, por isso, está vendendo alguns itens como eletrodomésticos ou eletrônicos. Os preços são baixos porque a pessoa precisa agilizar a saída do país.
+      Em outras roupagens, os golpistas anunciam celulares a preços baixos que supostamente foram trazidos por algum parente dos Estados Unidos ou perfis que se passam por estabelecimentos comerciais enviam mensagens oferecendo vantagens, como sorteios ou promoções.
+      Os interessados entram em contato por direct (as mensagens privadas da rede social) e perguntam como podem combinar a compra. O criminoso, então, envia uma chave Pix e pede o comprovante – após o pagamento ser efetuado, o golpista bloqueia a vítima. Se questionado pela possibilidade de retirar o equipamento pessoalmente, não responde.`,
+      img: 'assets/images/logo.png',
+      steps: [
+        {
+          title: 'Como Prevenir?',
+          description: [
+            'Recomendamos também que as pessoas desconfiem de publicações de perfis do Instagram que anunciam a venda de itens, como celulares e produtos eletrônicos, além de rifas e vaquinhas para causas sociais. Sugerimos entrar em contato diretamente com o dono do perfil para checar a veracidade da publicação antes de realizar uma transferência bancária.',
+            'É importante se certificar sobre quem entra em contato com você por mensagens e só estabelecer diálogo com contatos de confiança. O Instagram reforça que, se precisar entrar em contato, usará a aba “E-mails do Instagram”, que fica nas configurações.'
+          ]
+        },
+        {
+          title: 'O Que Fazer?',
+          description: [
+            ` Se você foi vítima do golpe, a recomendação é entrar em contato com a sua instituição financeira e reportar a fraude, solicitando o estorno do valor enviado.
+            "A denúncia será consolidada e enviada para as equipes de segurança do banco ou fintech, as quais posteriormente vão agir para congelar ou cancelar a chave Pix", explica Assolini. Segundo ele, é comum a reutilização de chaves Pix em golpes. Logo, a denúncia é importante para evitar que outras pessoas caiam na fraude.
+            Em seguida, é preciso avisar à pessoa que teve o perfil hackeado, para que ela possa alertar outros sobre a ocorrência do golpe e impedir que surjam novas vítimas.`
+          ]
+        }
+      ]
     }
   ]
 
