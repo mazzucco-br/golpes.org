@@ -517,6 +517,32 @@ export class TemplateComponent implements OnInit {
           ]
         }
       ]
+    },
+    {
+      id: 'golpeInstagramPromocaoFalsa',
+      title: 'Golpe do Instagram Promoção Falsa',
+      description: `As promoções e sorteios têm sido bastante usuais como estratégia de marketing no Instagram. Contas de pequeno, médio e grande porte oferecem os mais distintos benefícios: conteúdos, workshops, produtos etc. Tudo grátis, desde que a pessoa preencha um cadastro.
+      Quando a conta é verdadeira, os dados tendem a ser usados para a finalidade anunciada. O problema ocorre quando os usuários são vítimas do golpe da promoção falsa.
+      O golpe da promoção falsa acontece em contas comerciais. Neste caso, os criminosos criam um perfil do zero e adicionam no nome ou na descrição as abreviações “mkt” para marketing ou “promo”, de promoção. Fazem reprodução de fotos e textos do perfil original da loja e seguem as mesmas pessoas.
+      Nos stories, os golpistas iniciam uma campanha de sorteio ou promoção e pedem que os seguidores participem clicando no link adicionado na biografia ou página inicial do perfil. O objetivo deste golpe não é subtrair dinheiro diretamente pelo Instagram, mas roubar dados pessoais.
+      Os interessados no benefício irão preencher o cadastro e fornecer informações que podem ser usadas para abrir contas de banco, crediário, empréstimos ou outro uso indevido.`,
+      img: 'assets/images/logo.png',
+      steps: [
+        {
+          title: 'Como Prevenir?',
+          description: [
+            'É importante se certificar sobre quem entra em contato com você por mensagens e só estabelecer diálogo com contatos de confiança. O Instagram reforça que, se precisar entrar em contato, usará a aba “E-mails do Instagram”, que fica nas configurações.'
+          ]
+        },
+        {
+          title: 'O Que Fazer?',
+          description: [
+            `Se você foi vítima do golpe, a recomendação é entrar em contato com a sua instituição financeira e reportar a fraude, solicitando o estorno do valor enviado.
+            "A denúncia será consolidada e enviada para as equipes de segurança do banco ou fintech, as quais posteriormente vão agir para congelar ou cancelar a chave Pix", explica Assolini. Segundo ele, é comum a reutilização de chaves Pix em golpes. Logo, a denúncia é importante para evitar que outras pessoas caiam na fraude.
+            Em seguida, é preciso avisar à pessoa que teve o perfil hackeado, para que ela possa alertar outros sobre a ocorrência do golpe e impedir que surjam novas vítimas.`
+          ]
+        }
+      ]
     }
   ]
 
