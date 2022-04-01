@@ -543,6 +543,38 @@ export class TemplateComponent implements OnInit {
           ]
         }
       ]
+    },
+    {
+      id: 'golpePhishing',
+      title: 'Golpe Phishing',
+      description: `O phishing é um tipo de fraude eletrônica, caracterizada por tentativas de adquirir dados  pessoais de vários tipos: nome de usuário, senhas, números de cartões de crédito e conta bancária e outras informações de cadastro.
+      Para os fraudadores, esta forma de roubo de dados pessoais é relativamente simples de ser feita e atinge a muitos usuários ao mesmo tempo.
+      Os golpistas desenvolvem peças de e-mail ou SMS, aplicativos, fazem sites falsificados ou usam redes sociais para disparar milhões de mensagens por dia. Eles esperam até que os destinatários recebam e abram as mensagens.
+      O tom da mensagem é sempre urgente. Um dos exemplos mais comuns é um e-mail com notificação que seria do seu banco - mas é falsa e seu banco não sabe que o nome dele está sendo usado - pedindo para que você clique num link e atualize seus dados cadastrais ou a conta bancária pode ser desativada.
+      Ao clicar no link, o usuário é direcionado para uma página que imita a do banco e, a partir daí, consegue registrar tudo o que é digitado pela vítima, como informações de login e senhas, número de cartão de crédito e código de segurança, CPF, entre outros. `,
+      img: 'assets/images/logo.png',
+      steps: [
+        {
+          title: 'Como Prevenir?',
+          description: [
+            'Confira o link e o domínio do site que você está acessando;',
+            'Tenha cuidado com os sites de buscas, certificando-se de que o site que você está clicando é o correto;',
+            'Verifique se a página que você acessou é segura, procurando o “https” no começo da URL e o ícone de um cadeado em seu navegador;',
+            'Não responda e-mails e SMS que peçam informações pessoais, financeiras ou de contas;',
+            'Verifique os cabeçalhos das mensagens e o e-mail do remetente;',
+            'Procure pelo selo de verificação quando receber uma mensagem de uma empresa conhecida;',
+            'Revise suas contas regularmente e verifique atividades não autorizadas;',
+            'Não compartilhe mensagens falsas.'
+          ]
+        },
+        {
+          title: 'O Que Fazer?',
+          description: [
+            `Se for vítima de phishing em sua conta bancária ou cartão de crédito, registre um boletim de ocorrência e notifique imediatamente o banco e a operadora de cartão de crédito, para cancelamento dos cartões e troca de senhas, assim como para rastrear as operações fraudulentas que foram efetuadas e tomar as providências cabíveis administrativas e judiciais, se necessário.
+            Se o phishing contaminar seu computador ou dispositivo móvel com vírus ou malware, faça a descontaminação com antivírus e instale um firewall ou recorra à assistência técnica para recompor o funcionamento do seu equipamento.`
+          ]
+        }
+      ]
     }
   ]
 
