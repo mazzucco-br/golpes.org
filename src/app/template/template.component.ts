@@ -460,7 +460,40 @@ export class TemplateComponent implements OnInit {
           ]
         }
       ]
+    },
+    {
+      id: 'golpeInstagramPerfilVerificado',
+      title: 'Golpe do Instagram Perfil Verificado',
+      description: `	As mídias sociais possuem a funcionalidade de conta verificada, ou seja, um selo de autenticação da própria empresa atestando que aquele perfil pertence efetivamente a uma figura pública ou negócio.
+
+      Além de atestar a veracidade da identidade, o ícone azul de verificação ao lado do nome também significa status social. O selo significa que o Instagram está legitimando uma atuação como figura pública, empresa ou instituição naquele perfil, ou seja, considerando aquela pessoa digna de ser reconhecida como popular ou relevante para a conversação. O status na rede é desejável por muitos usuários, mas nem sempre é concedido. O golpe entra justamente neste ponto, quando o usuário tem um pedido negado ou não sabe como solicitar a verificação.
+    
+      A abordagem dos criminosos pode começar de forma legal, com os golpistas se apresentando como consultores de imagem pública e autoridade digital. Essa divulgação inicial se dá por mensagens diretas no próprio aplicativo, por e-mail ou por anúncios oferecendo o serviço de verificação. Quando o usuário é fisgado, recebe um convite para preencher um cadastro.
+    
+      O primeiro golpe é de roubo de dados pessoais. Ao cadastrar informações, muitas vezes o usuário compartilha o endereço do perfil, o login, a senha e outros dados como número da identidade, endereço, telefone etc.
+    
+    O segundo golpe é o estelionato. Mesmo sabendo ser impossível garantir que o Instagram vá conceder o selo, os golpistas cobram preços que podem variar de R$ 1 mil a R$ 5 mil reais. Os golpistas pedem o pagamento à vista ou uma primeira parcela antecipada. Apesar de pagarem pelo serviço, muitas vítimas têm o pedido de verificação negado e não conseguem reaver o dinheiro.`,
+      img: 'assets/images/logo.png',
+      steps: [
+        {
+          title: 'Como Prevenir?',
+          description: [
+            '-Para não ser vítima deste golpe, só converse sobre construção de autoridade pessoal nas mídias sociais ou sobre perfil de influenciador digital com profissionais de confiança e recomendados pelo seu círculo de amizades.',
+            '-A ESET recomenda desconfiar de qualquer mensagem oferecendo algo do tipo na rede social; ',
+            '-Não responda supostas mensagens diretas do Instagram, é importante se certificar sobre quem entra em contato com você por mensagens e só estabelecer diálogo com contatos de confiança. O Instagram reforça que, se precisar entrar em contato, usará a aba “E-mails do Instagram”, que fica nas configurações.; ',
+            
+          ]
+        },
+        {
+          title: 'O que Fazer?',
+          description: [
+            'A primeira coisa a ser feita é ir até uma delegacia e realizar um boletim de ocorrência. Sendo assim, apresente à polícia todas as informações que possui, como dados do recebedor e também a troca de mensagens, caso haja.',
+           
+          ]
+        }
+      ]
     }
+    
     
   ]
 
