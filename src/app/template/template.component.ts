@@ -497,6 +497,26 @@ export class TemplateComponent implements OnInit {
           ]
         }
       ]
+    },
+    {
+      id: 'golpeUberFalso',
+      title: 'Golpe do Uber Falso',
+      description: `Um homem se passa por motorista de aplicativo para cometer estupros, quando via mulheres esperando por uma corrida, com celular na mão e cabeça baixa, ele parava o carro esperando que alguma vítima desatenta entrasse no veículo. `,
+      img: 'assets/images/logo.png',
+      steps: [
+        {
+          title: 'Como Prevenir?',
+          description: [
+            'É importantíssimo que as pessoas que utilizam esse serviço de transporte por aplicativo confiram a placa do carro, os dados do veículo que aparecem no aplicativo com o veículo que para. O próprio motorista, vejam a avaliação desse motorista, compartilhem localização com pessoas conhecidas ou se comuniquem o tempo todo", alertou a delegada.'
+          ]
+        },
+        {
+          title: 'O Que Fazer?',
+          description: [
+            'Acione imediatamente a polícia ao suspeitar de algum carro parado enquanto aguarda o uber.'
+          ]
+        }
+      ]
     }
   ]
 
