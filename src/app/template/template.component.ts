@@ -434,6 +434,71 @@ export class TemplateComponent implements OnInit {
       ]
     },
     {
+      id: 'golpePropagandasFalsasFacebook',
+      title: 'Golpe Propaganda Falsa do Facebook',
+      description: `Golpistas postam anúncios de descontos usando o nome de varejistas, usando seus logotipos e marcas. Esses anúncios levam a sites semelhantes, porém falsos, que roubam dados financeiros dos consumidores, como informação de cartão de crédito e senhas bancárias. `,
+      img: 'assets/images/logo.png',
+      steps: [
+        {
+          title: 'Como Prevenir?',
+          description: [
+            '-É preciso ter cuidado na hora de aderir a uma promoção para garantir que a oferta é real e anunciada por uma fanpage oficial da marca.',
+            '-Verifique se a página é oficial ou cópia',
+            '-Observe o texto da URL do site para ver se a grafia está correta e se as palavras correspondem à do site oficial.',
+            '-Procure indicativos de segurança como o uso do SSL(HTTPS) e também se a página possui o selo Site Blindado.',
+            '- Faça uma busca pela marca e veja quantas curtidas a página possui.De forma geral, páginas oficiais costumam ter muitas curtidas, mais que uma página falsa.',
+            '-Clique na página e verifique se ela possui uma validação, em azul, ao lado do nome da página.',
+            '-Preste atenção no valor do produto ofertado. Os valores dos produtos, em promoção falsa, tendem a ser muito mais baratos que a média de outros sites do varejo. Por isso, desconfie desse tipo de oferta para não correr o risco de perder seu dinheiro.',
+            '- Para pequenos ou médios negócios nas plataformas, vale conferir os comentários nas publicações, assim como a data de criação da página. Caso seja recente demais, verifique o histórico das interações e o que outros clientes têm comentado a respeito dos produtos e serviços da empresa;'
+          ]
+        },
+        {
+          title: 'O Que Fazer?',
+          description: [
+            'A dica, segundo os especialistas, é que vítimas de golpes do gênero registrem na Polícia Civil um boletim assim que suspeitarem que estão caindo em um golpe.',
+            'Caso um usuário depare com anúncios considerados suspeitos, a orientação da empresa é reportar a situação ao próprio Facebook, que analisará o conteúdo. A rede social frisa que a prática contribui para evitar que um número maior de pessoas seja impactado por possíveis ações criminosas.' ,
+            '-Para denunciar uma publicação:',
+            '	- Clique no canto superior direito da postagem;',
+            '	- Clique em "Denunciar publicação" ou "Denunciar foto";',
+            '- Selecione a opção que melhor descreva o problema e siga as instruções na tela.',
+            '-Para denunciar um perfil ou uma página:',
+            '- Vá para o perfil ou a página que deseja denunciar;',
+            '- No canto inferior direito da foto da capa, clique e selecione "Denunciar";',
+            '- Siga as instruções na tela.'
+          ]
+        }
+      ]
+    },
+    {
+      id: 'golpeFalsoEmprego',
+      title: 'Golpe do Falso Emprego',
+      description: `Ofertas de emprego aparecem aos montes em anúncios online, serviços de mensagens instantâneas e redes sociais. O problema é que, em muitos casos, as vagas anunciadas não são reais e podem causar numerosos transtornos à pessoa que não perceber a fraude.
+      Via de regra, as falsas vagas instruem as vítimas a preencherem formulários com dados como nome, CPF, endereço, telefone e informações bancárias. Esses dados podem ser usados para uma série de ações maliciosas, como abertura de contas bancárias fraudulentas e compras ou empréstimos em nome da vítima.
+      No fim das contas, a pessoa acaba não conseguindo trabalho e, frequentemente, é vítima de uma fraude que a faz perder tempo e dinheiro.
+      Em alguns casos, os criminosos podem até conseguir login e senha da pessoa em serviços de e-mail e redes sociais, situação que dá abertura para o invasor se passar pela vítima e aplicar outros golpes.
+      O golpe do falso emprego costuma ser aplicado via mensagens com links e também sites que capturam dados de quem busca uma vaga. `,
+      img: 'assets/images/logo.png',
+      steps: [
+        {
+          title: 'Como Prevenir?',
+          description: [
+            '-Atente-se à página de divulgação: Ao acessar uma página de candidatura, verifique se ela possui outras sessões, como uma página inicial, uma aba institucional com informações de contato ou que fale sobre a empresa que está oferecendo a suposta vaga.',
+            '-Pense duas vezes antes de informar qualquer dado: Todos os sites de empregos falsos solicitam dados pessoais, como nome, telefone, e-mail e endereço. Antes de preencher qualquer formulário, verifique se a página disponibiliza algum campo para que você possa escrever um pouco sobre sua experiência profissional, habilidades ou até mesmo anexar um currículo.',
+            '-Anúncios que descrevem grandes quantidades de vagas ou destacam que o preenchimento delas é urgente também podem ser suspeitos, bem como aqueles que não descrevem os cargos disponíveis. Tão ou mais importante é desconfiar de ofertas de vagas garantidas.',
+            '-Outra dica é verificar se a descrição da vaga é muito genérica, ou seja, não contém informações importantes sobre o cargo ou dá muito destaque ao salário e benefícios.',
+            '-Outra orientação: ao entrar em contato para solicitar mais informações, não prossiga se dados de documentos forem exigidos antes da contratação, se as perguntas sobre o cargo não forem devidamente respondidas ou se te instruírem a fazer pagamentos para conseguir o suposto emprego.'
+          ]
+        },
+        {
+          title: 'O Que Fazer?',
+          description: [
+            'Não deixe de divulgar as dicas dadas aqui a parentes e amigos — vale até indicar este site quando alguém compartilhar ofertas de trabalho suspeitas nas redes sociais ou no WhatsApp, por exemplo.',
+            'Não hesite em procurar uma delegacia de polícia ou pedir orientações a um advogado.'
+          ]
+        }
+      ]
+    },
+    {
       id: 'golpeDoPix',
       title: 'Golpe do Pix',
       description: `Por ser recente, muitos criminosos se aproveitam da falta de conhecimento da população em geral para praticar delitos relacionados ao uso do Pix. Um golpe recorrente é o chamado “bug do pix”, em que o golpista dissemina nas redes sociais que o serviço está com uma falha, na qual, se você transferir dinheiro em uma chave descrita por ele, receberá em dobro na própria conta. Essa chave, claro, é da conta do próprio criminoso.
@@ -461,7 +526,6 @@ export class TemplateComponent implements OnInit {
         }
       ]
     }
-    
   ]
 
   searchText = '';
