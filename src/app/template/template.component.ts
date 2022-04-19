@@ -497,6 +497,34 @@ export class TemplateComponent implements OnInit {
           ]
         }
       ]
+    },
+    {
+      id: 'golpeDoPix',
+      title: 'Golpe do Pix',
+      description: `Por ser recente, muitos criminosos se aproveitam da falta de conhecimento da população em geral para praticar delitos relacionados ao uso do Pix. Um golpe recorrente é o chamado “bug do pix”, em que o golpista dissemina nas redes sociais que o serviço está com uma falha, na qual, se você transferir dinheiro em uma chave descrita por ele, receberá em dobro na própria conta. Essa chave, claro, é da conta do próprio criminoso.
+
+      `,
+      img: 'assets/images/logo.png',
+      steps: [
+        {
+          title: 'Como Prevenir?',
+          description: [
+            '-Não clique em links suspeitos recebidos por e-mail, WhatsApp, SMS ou outras redes sociais. Em vez disso, entre em contato com a pessoa que o enviou para se certificar, contudo, se não for possível, ignore;',
+            '-O cadastramento das chaves Pix só deve ser realizado através dos canais oficiais dos bancos, como aplicativo, Internet Banking ou agência. Em caso de dúvida, entre em contato com a Central de Atendimento;',
+            '-Ative a verificação em duas etapas do WhatsApp e nunca forneça o código para outras pessoas;',
+            '-Não realize cadastro no Pix a partir de ligações telefônicas ou contatos através do WhatsApp, essa prática não é permitida;',
+            '-Ao receber um pedido de empréstimo de amigos ou parentes, entre em contato com a pessoa para confirmar que se trata de uma solicitação verdadeira, pois o WhatsApp pode ter sido clonado ou falsificado;',
+            '-Existem outros golpes relacionados ao Pix, mas a prevenção é sempre a mesma: jamais faça Pix a desconhecidos esperando receber alguma compensação por isso.'
+          ]
+        },
+        {
+          title: 'O que Fazer?',
+          description: [
+            'A primeira coisa a ser feita é ir até uma delegacia e realizar um boletim de ocorrência. Sendo assim, apresente à polícia todas as informações que possui, como dados do recebedor e também a troca de mensagens, caso haja.',
+            'Em seguida, notifique o banco no qual o fraudador tem conta, para isso, informe a chave Pix, número da agência e conta, nome do beneficiário e também a ID da transação, que é um código que aparece no comprovante.'
+          ]
+        }
+      ]
     }
   ]
 
