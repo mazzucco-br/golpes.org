@@ -57,6 +57,7 @@ export class StoryComponentComponent implements OnInit {
   ]
   loading = true;
   showStory = false
+  selectedStory: any;
 
   constructor() { }
 
@@ -76,6 +77,7 @@ export class StoryComponentComponent implements OnInit {
   }
 
   onClickStory = (story: any) => {
+    this.selectedStory = story
     this.showStory = true
   }
 
